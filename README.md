@@ -1,4 +1,4 @@
-# vue-media
+# vue-media-plyr
 A vue component for the plyr video &amp; audio player
 
 use:
