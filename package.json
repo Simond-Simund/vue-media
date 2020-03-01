@@ -1,39 +1,10 @@
 {
-  "_from": "media-au",
-  "_id": "media-au@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-90vuV78VLJfntQC4QOULRA1plLt6c/XFszDuEN1Etpxmayul9Z3uupm0X/obHGFz2/L6NJ6NBikMGS3UaZzLeA==",
-  "_location": "/media-au",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "media-au",
-    "name": "media-au",
-    "escapedName": "media-au",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/media-au/-/media-au-1.0.0.tgz",
-  "_shasum": "a7f0fb73cf7484ad56da1313174cea8c4a6e2716",
-  "_spec": "media-au",
-  "_where": "C:\\Users\\liuqiqi1\\work\\projects\\创建问卷\\onfeedback-questionnaire-web",
   "author": {
     "name": "simon"
   },
-  "bundleDependencies": [
-    "plyr",
-    "vue"
-  ],
   "dependencies": {
     "plyr": "^3.5.6",
-    "vue": "^2.6.11",
-    "webpack": "^4.41.6"
+    "vue": "^2.6.11"
   },
   "deprecated": false,
   "description": "A vue component for the plyr video & audio player.",
@@ -44,6 +15,7 @@
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "core-js": "3",
+    "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
   "files": [
@@ -51,13 +23,15 @@
   ],
   "jsnext:main": "./dist/vue-plyr.min.js",
   "keywords": [
-    "media-au"
+    "vue-media-plyr"
   ],
   "license": "MIT",
   "main": "./dist/vue-plyr.min.js",
   "module": "./dist/vue-plyr.min.js",
-  "name": "media-au",
+  "name": "vue-media-plyr",
   "ssr": "./dist/vue-plyr.ssr.js",
   "unpkg": "./dist/vue-plyr.js",
-  "version": "1.0.0"
+  "version": "1.0.2",
+  "homepage": "https://github.com/Simond-Simund/vue-media-plyr.git#readme",
+  "Repository": "https://github.com/Simond-Simund/vue-media-plyr.git"
 }
